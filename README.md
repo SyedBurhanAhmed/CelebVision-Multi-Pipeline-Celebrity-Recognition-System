@@ -1,4 +1,3 @@
-
 # 🌟 CelebVision: Multi-Pipeline Celebrity Recognition System
 
 <div align="center">
@@ -11,10 +10,11 @@
 
 **Complete AI pipeline combining YOLOv11 face detection, gender classification, and EfficientNetV2-S celebrity recognition for 15 Pakistani celebrities.**
 
-[📊 Kaggle Model](https://kaggle.com/models/syedburhanahmed/cv-project-part-1celebrity-detection) 
+[📊 Kaggle Model](https://kaggle.com/models/syedburhanahmed/cv-project-part-1celebrity-detection) • [🏆 Competition Results](#competition-achievements) • [🚀 Quick Start](#quick-start) • [📁 Project Structure](#project-structure)
+
 </div>
 
-## Competition Achievements
+##Competition Achievements
 
 - **🥇 1st Place** in CV Kaggle Competition (50+ students)  
 - **📈 F1 Score:** 0.973 public, 1.000 private leaderboard
