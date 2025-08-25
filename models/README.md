@@ -3,7 +3,7 @@
 
 ## 🎯 YOLO Gender Detection Model
 
-- **File:** `yolo_gender_detection.pt` (5.2KB) ✅
+- **File:** `yolo_gender_detection.pt` (5.2MB) ✅
 - **Architecture:** YOLOv11n fine-tuned for gender detection
 - **Classes:** Female (0), Male (1)
 - **Performance:** mAP@0.5 = 0.966, Precision > 0.95, Recall > 0.9
