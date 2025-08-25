@@ -14,7 +14,7 @@
 
 </div>
 
-##Competition Achievements
+## Competition Achievements
 
 - **🥇 1st Place** in CV Kaggle Competition (50+ students)  
 - **📈 F1 Score:** 0.973 public, 1.000 private leaderboard
