@@ -1,0 +1,2 @@
+# CelebVision-Multi-Pipeline-Celebrity-Recognition-System
+Complete AI pipeline combining YOLOv11 face detection, gender classification, and EfficientNetV2-S celebrity recognition for 15 Pakistani celebrities. Achieved 1st place in Kaggle competition with 97.3% F1 score. Features real-time multi-person processing, handles severe class imbalance, and integrates detection + classification seamlessly.
