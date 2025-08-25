@@ -142,7 +142,7 @@ celebvision/
 
 ![Classifier Performance](results/classifier/training_loss_accuracy_curves.png)
 ![Confusion Matrix](results/classifier/confusion_matrix.png)
-![YOLO Training Metrics](results/yolo/training_metrics.png)
+![YOLO Training Metrics](results/yolo/results.png)
 
 ## Technical Details
 
