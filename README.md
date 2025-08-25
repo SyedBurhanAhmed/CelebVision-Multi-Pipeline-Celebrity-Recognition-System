@@ -53,7 +53,7 @@ CUDA-capable GPU (recommended)
 1. **Clone the repository**
 ```
 
-git clone https://github.com/yourusername/celebvision.git
+git clone https://github.com/SyedBurhanAhmed/CelebVision-Multi-Pipeline-Celebrity-Recognition-System.git
 cd celebvision
 
 ```
