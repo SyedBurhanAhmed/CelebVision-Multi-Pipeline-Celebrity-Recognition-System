@@ -1,3 +1,4 @@
+
 # 🌟 CelebVision: Multi-Pipeline Celebrity Recognition System
 
 <div align="center">
@@ -10,18 +11,17 @@
 
 **Complete AI pipeline combining YOLOv11 face detection, gender classification, and EfficientNetV2-S celebrity recognition for 15 Pakistani celebrities.**
 
-[📊 Kaggle Model](https://kaggle.com/models/syedburhanahmed/cv-project-part-1celebrity-detection) • [🏆 Competition Results](#results) • [🚀 Quick Start](#quick-start) • [📁 Project Structure](#project-structure)
-
+[📊 Kaggle Model](https://kaggle.com/models/syedburhanahmed/cv-project-part-1celebrity-detection) 
 </div>
 
-## 🏆 Competition Achievements
+## Competition Achievements
 
 - **🥇 1st Place** in CV Kaggle Competition (50+ students)  
 - **📈 F1 Score:** 0.973 public, 1.000 private leaderboard
 - **🎯 mAP@0.5:** 0.966 for face detection and gender classification
 - **⚡ Real-time inference** on multi-person images
 
-## 🎯 Project Overview
+## Project Overview
 
 CelebVision is an end-to-end computer vision system that processes images to:
 
@@ -30,14 +30,14 @@ CelebVision is an end-to-end computer vision system that processes images to:
 3. **🌟 Recognize celebrities** from 15 Pakistani personalities + "others" class
 4. **🎨 Visualize results** with annotated bounding boxes and labels
 
-### 🧠 Technical Innovation
+### Technical Innovation
 
 - **Multi-pipeline architecture** combining object detection and classification
 - **Handles severe class imbalance** (2000 "others" vs 180-200 per celebrity)
 - **Compact YOLO model** (5.2MB) with high accuracy
 - **Transfer learning** with EfficientNetV2-S backbone
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -97,7 +97,7 @@ results = celebrity_recognition_pipeline('path/to/your/image.jpg')
 
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -123,7 +123,7 @@ celebvision/
 
 ```
 
-## 📊 Results & Performance
+## Results and Performance
 
 ### Part 1: Celebrity Classifier (EfficientNetV2-S)
 | Metric | Public | Private |
@@ -144,7 +144,7 @@ celebvision/
 ![Confusion Matrix](results/classifier/confusion_matrix.png)
 ![YOLO Training Metrics](results/yolo/training_metrics.png)
 
-## 🛠️ Technical Details
+## Technical Details
 
 ### Model Architecture
 - **Detection**: YOLOv11n fine-tuned on custom dataset (5.2MB)
@@ -162,30 +162,30 @@ celebvision/
 - ✅ Celebrity name predictions with confidence scores
 - ✅ Compact YOLO model suitable for deployment
 
-## 📚 Notebooks Overview
+## Notebooks Overview
 
 1. **Celebrity Classifier** - Training EfficientNetV2-S for 16-class classification with competition-winning results
 2. **Complete Pipeline** - **End-to-end implementation** including YOLO training, classifier integration, and full inference pipeline
 
-## 🏅 Competition Context
+## Competition Context
 
 This project was developed as part of Computer Vision coursework under **Sir Azeem's** guidance, where all assignments were conducted as Kaggle competitions. This competitive format encouraged rigorous optimization and real-world ML practices.
 
-## 🔗 Links & Resources
+## Links and Resources
 
 - 🏆 **Kaggle Classifier Model**: [Pakistani Celebrity Recognition](https://kaggle.com/models/syedburhanahmed/cv-project-part-1celebrity-detection)
 - 📊 **Competition**: [CV Project Leaderboard](https://www.kaggle.com/competitions/s-2025-multi-class-pretraied-network-project)
 - 📋 **Model Documentation**: [models/README.md](models/README.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Syed Burhan Ahmed**
 - 🎓 Student at University of Management and Technology
@@ -193,14 +193,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 📧 Contact: [syedburhanahmedd@gmail.com]
 - 💼 LinkedIn: [https://www.linkedin.com/in/syed-burhan-ahmed/]
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Sir Azeem** - Course instructor and mentor
 - **University of Management and Technology** - Academic support
 - **Kaggle Community** - Platform and competitive environment
 - **PyTorch & Ultralytics Teams** - Excellent frameworks
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Model ensemble for improved accuracy
 - [ ] Real-time webcam inference
@@ -213,4 +213,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 <b>⭐ Star this repository if you found it helpful!</b>
 </div>
-```
